@@ -6,7 +6,7 @@
       h3 { margin-bottom: 0;}
       p { margin-top: 0;}
 </style>
-      <script src="calculator.js"></script>
+      <script type="calc" src="calculator.js"></script>
 </head> 
 <body>
   
@@ -21,6 +21,10 @@
 5+ x 110 Kg</p>
 
 
-<p>This is a test: {deadliftWeight} </p>      
+<p id="text_test"></p>     
+
+      <script type="calc">
+            document.getElementById('text_test').innerHTML = deadliftWeight;            
+      </script>
 </body>
 </html>
