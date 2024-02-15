@@ -13,7 +13,7 @@ window.onload = function calculate(){
     function setText(id, text) {
         var element = document.getElementById(id);
         if (element) {
-            element.textContent = text;
+            element.innerHTML = text;
         }
         return element;
     }
