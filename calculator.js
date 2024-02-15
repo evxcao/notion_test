@@ -1,5 +1,5 @@
 var deadliftWeight = 125;
-var DLTest = deadliftWeight *2;
+
 
 function calculate(){
   return{
@@ -9,5 +9,5 @@ function calculate(){
   }
 }
 
-document.getElementById('text_test').innerHTML = DLTest;
+document.getElementById('DL_warmup').innerHTML = "10 x 40 Kg <br> 5 x " + {DL_W1_1} + " Kg";
 
