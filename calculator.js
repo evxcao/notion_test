@@ -1,5 +1,8 @@
 var deadliftWeight = 126;
 
+
+alert("hola");
+
 document.getElementById('text_test').innerHTML = deadliftWeight;
 
 var DLTest = deadliftWeight *2;
