@@ -1,4 +1,4 @@
-var deadliftWeight = 126;
+var deadliftWeight = 125;
 var DLTest = deadliftWeight *2;
 
 function calculate(){
