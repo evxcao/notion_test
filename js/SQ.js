@@ -20,7 +20,7 @@ window.onload = function calculate(){
     setText("SQ85",SQ85);
     setText("SQ90",SQ90);
     setText("SQ95",SQ95);    
-};
+}
 
 function setText(id, text) {
     var element = document.getElementById(id);
