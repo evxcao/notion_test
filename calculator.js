@@ -1,10 +1,4 @@
 var deadliftWeight = 126;
-
-
-alert("hola");
-
-document.getElementById('text_test').innerHTML = deadliftWeight;
-
 var DLTest = deadliftWeight *2;
 
 function calculate(){
@@ -14,4 +8,6 @@ function calculate(){
     DL_W1_3: 2.5 * Math.round((deadliftWeight*0.85)/2.5),
   }
 }
+
+document.getElementById('text_test').innerHTML = DLTest;
 
