@@ -29,5 +29,5 @@ window.onload = function calculateSQ(){
     setText("SQ90",SQ90);
     setText("SQ95",SQ95);    
 
-    console.log("This was loaded");
+    alert("This was loaded");
 }
