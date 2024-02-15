@@ -9,5 +9,5 @@ function calculate(){
   }
 }
 
-document.getElementById('DL_warmup').innerHTML = "10 x 40 Kg <br> 5 x ";
+document.getElementById('DL_warmup').innerHTML = "10 x 40 Kg <br> 5 x " + {deadliftWeight};
 
