@@ -23,3 +23,5 @@ window.onload = function calculate(){
     document.getElementById('SQ_WP3').innerHTML = wpSQ3;
 };
 //random
+
+//random random
