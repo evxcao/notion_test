@@ -9,5 +9,5 @@ function calculate(){
   }
 }
 
-document.getElementById('DL_warmup').innerHTML = "10 x 40 Kg <br> 5 x " + {DL_W1_1} + " Kg";
+document.getElementById('DL_warmup').innerHTML = "10 x 40 Kg <br> 5 x ";
 
