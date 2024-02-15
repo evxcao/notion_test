@@ -1,4 +1,4 @@
-window.onload = function calculate(){
+window.onload = function calculateSQ(){
     var SQ40 = 2.5 * Math.round((squatWeight*0.40)/2.5);
     var SQ50 = 2.5 * Math.round((squatWeight*0.50)/2.5);
     var SQ60 = 2.5 * Math.round((squatWeight*0.60)/2.5);
