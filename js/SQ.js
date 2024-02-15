@@ -1,4 +1,5 @@
 window.onload = function calculate(){
+    alert("hola1");
     var SQ40 = 2.5 * Math.round((squatWeight*0.40)/2.5);
     var SQ50 = 2.5 * Math.round((squatWeight*0.50)/2.5);
     var SQ60 = 2.5 * Math.round((squatWeight*0.60)/2.5);
@@ -17,7 +18,7 @@ window.onload = function calculate(){
         }
         return element;
     }
-    
+    alert("Hola2");
     setText("SQ40",SQ40);
     setText("SQ50",SQ50);
     setText("SQ60",SQ60);
