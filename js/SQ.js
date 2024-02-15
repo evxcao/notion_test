@@ -1,0 +1,22 @@
+window.onload = function calculate(){
+    var SQ40 = 2.5 * Math.round((squatWeight*0.40)/2.5);
+    document.getElementById('SQ40').innerHTML = SQ40;
+    var SQ50 = 2.5 * Math.round(squatWeight*0.50)/2.5);
+    document.getElementById('SQ50').innerHTML = SQ50;
+    var SQ60 = 2.5 * Math.round((squatWeight*0.60)/2.5);
+    document.getElementById('SQ60').innerHTML = SQ60;
+    var SQ65 = 2.5 * Math.round((deadliftWeight*0.65)/2.5);
+    document.getElementById('SQ65').innerHTML = SQ65;
+    var SQ70 = 2.5 * Math.round((deadliftWeight*0.70)/2.5);
+    document.getElementById('SQ70').innerHTML = SQ70;
+    var SQ75 = 2.5 * Math.round((deadliftWeight*0.75)/2.5);
+    document.getElementById('SQ75').innerHTML = SQ75;
+    var SQ80 = 2.5 * Math.round((deadliftWeight*0.80)/2.5);
+    document.getElementById('SQ80').innerHTML = SQ80;
+    var SQ85 = 2.5 * Math.round((deadliftWeight*0.85)/2.5);
+    document.getElementById('SQ85').innerHTML = SQ85;
+    var SQ90 = 2.5 * Math.round((deadliftWeight*0.90)/2.5);
+    document.getElementById('SQ90').innerHTML = SQ90;
+    var SQ95 = 2.5 * Math.round((deadliftWeight*0.95)/2.5);
+    document.getElementById('SQ95').innerHTML = SQ95;
+};
