@@ -1,14 +1,14 @@
 window.onload = function calculate(){
     var SQ40 = 2.5 * Math.round((squatWeight*0.40)/2.5);
-    var SQ50 = 2.5 * Math.round(squatWeight*0.50)/2.5);
+    var SQ50 = 2.5 * Math.round((squatWeight*0.50)/2.5);
     var SQ60 = 2.5 * Math.round((squatWeight*0.60)/2.5);
-    var SQ65 = 2.5 * Math.round((deadliftWeight*0.65)/2.5);
-    var SQ70 = 2.5 * Math.round((deadliftWeight*0.70)/2.5);
-    var SQ75 = 2.5 * Math.round((deadliftWeight*0.75)/2.5);
-    var SQ80 = 2.5 * Math.round((deadliftWeight*0.80)/2.5);
-    var SQ85 = 2.5 * Math.round((deadliftWeight*0.85)/2.5);
-    var SQ90 = 2.5 * Math.round((deadliftWeight*0.90)/2.5);
-    var SQ95 = 2.5 * Math.round((deadliftWeight*0.95)/2.5);
+    var SQ65 = 2.5 * Math.round((squatWeight*0.65)/2.5);
+    var SQ70 = 2.5 * Math.round((squatWeight*0.70)/2.5);
+    var SQ75 = 2.5 * Math.round((squatWeight*0.75)/2.5);
+    var SQ80 = 2.5 * Math.round((squatWeight*0.80)/2.5);
+    var SQ85 = 2.5 * Math.round((squatWeight*0.85)/2.5);
+    var SQ90 = 2.5 * Math.round((squatWeight*0.90)/2.5);
+    var SQ95 = 2.5 * Math.round((squatWeight*0.95)/2.5);
 
     setText("SQ40",SQ40);
     setText("SQ50",SQ50);
