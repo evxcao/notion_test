@@ -1,0 +1,22 @@
+window.onload = function calculate(){
+    var DL40 = 2.5 * Math.round((deadliftWeight*0.40)/2.5);
+    document.getElementById('DL40').innerHTML = DL40;
+    var DL50 = 2.5 * Math.round((deadliftWeight*0.50)/2.5);
+    document.getElementById('DL50').innerHTML = DL50;
+    var DL60 = 2.5 * Math.round((deadliftWeight*0.60)/2.5);
+    document.getElementById('DL60').innerHTML = DL60;
+    var DL65 = 2.5 * Math.round((deadliftWeight*0.65)/2.5);
+    document.getElementById('DL65').innerHTML = DL65;
+    var DL70 = 2.5 * Math.round((deadliftWeight*0.70)/2.5);
+    document.getElementById('DL70').innerHTML = DL70;
+    var DL75 = 2.5 * Math.round((deadliftWeight*0.75)/2.5);
+    document.getElementById('DL75').innerHTML = DL75;
+    var DL80 = 2.5 * Math.round((deadliftWeight*0.80)/2.5);
+    document.getElementById('DL80').innerHTML = DL80;
+    var DL85 = 2.5 * Math.round((deadliftWeight*0.85)/2.5);
+    document.getElementById('DL85').innerHTML = DL85;
+    var DL90 = 2.5 * Math.round((deadliftWeight*0.90)/2.5);
+    document.getElementById('DL90').innerHTML = DL90;
+    var DL95 = 2.5 * Math.round((deadliftWeight*0.95)/2.5);
+    document.getElementById('DL95').innerHTML = DL95;
+};
