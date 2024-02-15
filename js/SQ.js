@@ -10,6 +10,14 @@ window.onload = function calculate(){
     var SQ90 = 2.5 * Math.round((squatWeight*0.90)/2.5);
     var SQ95 = 2.5 * Math.round((squatWeight*0.95)/2.5);
 
+    function setText(id, text) {
+        var element = document.getElementById(id);
+        if (element) {
+            element.textContent = text;
+        }
+        return element;
+    }
+    
     setText("SQ40",SQ40);
     setText("SQ50",SQ50);
     setText("SQ60",SQ60);
@@ -20,12 +28,4 @@ window.onload = function calculate(){
     setText("SQ85",SQ85);
     setText("SQ90",SQ90);
     setText("SQ95",SQ95);    
-}
-
-function setText(id, text) {
-    var element = document.getElementById(id);
-    if (element) {
-        element.textContent = text;
-    }
-    return element;
 }
