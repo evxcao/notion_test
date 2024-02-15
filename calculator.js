@@ -1,6 +1,6 @@
 var deadliftWeight = 125;
 
-window.onload = function calculate(){
+window.onload = function calculateDL(){
     var wpDL1 = 2.5 * Math.round((deadliftWeight*0.40)/2.5);
     document.getElementById('DL_WP1').innerHTML = wpDL1;
     var wpDL2 = 2.5 * Math.round((deadliftWeight*0.50)/2.5);
@@ -14,3 +14,4 @@ window.onload = function calculate(){
     var w1DL3 = 2.5 * Math.round((deadliftWeight*0.85)/2.5);
     document.getElementById('DL_W13').innerHTML = w1DL3;
 };
+//random
