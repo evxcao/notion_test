@@ -1,4 +1,4 @@
-window.onload = function calculate(){
+window.onload = function calculateDL(){
     var DL40 = 2.5 * Math.round((deadliftWeight*0.40)/2.5);
     var DL50 = 2.5 * Math.round((deadliftWeight*0.50)/2.5);
     var DL60 = 2.5 * Math.round((deadliftWeight*0.60)/2.5);
